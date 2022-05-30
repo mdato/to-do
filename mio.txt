@@ -1,0 +1,7 @@
+npm create-next-app todo
+yarn create next-app todo
+cd todo
+npm i axios mongoose
+yarn add axios mongoose
+npm run dev
+yarn run dev
