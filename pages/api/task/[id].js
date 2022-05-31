@@ -1,7 +1,7 @@
 import Task from "../../../models/Task";
 import dbConnect from "../../../utils/dbConnect";
 
-export default async (req, res) => {
+const [id] = async (req, res) => {
 	const { method } = req;
 	const { id } = req.query;
 
@@ -35,3 +35,5 @@ export default async (req, res) => {
 		}
 	}
 };
+
+export default [id]
